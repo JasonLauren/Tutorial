@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-28T11:33:35 MYT" name="Default suite" finished-at="2023-06-28T11:33:39 MYT" duration-ms="3146">
+  <suite started-at="2023-06-30T17:41:43 MYT" name="Default suite" finished-at="2023-06-30T17:41:46 MYT" duration-ms="3354">
     <groups>
     </groups>
-    <test started-at="2023-06-28T11:33:35 MYT" name="Default test" finished-at="2023-06-28T11:33:39 MYT" duration-ms="3146">
+    <test started-at="2023-06-30T17:41:43 MYT" name="Default test" finished-at="2023-06-30T17:41:46 MYT" duration-ms="3354">
       <class name="getRequests.SingleUserDetails">
-        <test-method signature="getDetails()[pri:1, instance:getRequests.SingleUserDetails@4c4d27c8]" started-at="2023-06-28T11:33:35 MYT" name="getDetails" finished-at="2023-06-28T11:33:38 MYT" duration-ms="2204" status="PASS">
+        <test-method signature="getDetails()[pri:1, instance:getRequests.SingleUserDetails@4c4d27c8]" started-at="2023-06-30T17:41:43 MYT" name="getDetails" finished-at="2023-06-30T17:41:45 MYT" duration-ms="2279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDetails -->
-        <test-method signature="postdata()[pri:2, instance:getRequests.SingleUserDetails@4c4d27c8]" started-at="2023-06-28T11:33:38 MYT" name="postdata" finished-at="2023-06-28T11:33:38 MYT" depends-on-methods="getRequests.SingleUserDetails.getDetails" duration-ms="479" status="PASS">
+        <test-method signature="postdata()[pri:2, instance:getRequests.SingleUserDetails@4c4d27c8]" started-at="2023-06-30T17:41:45 MYT" name="postdata" finished-at="2023-06-30T17:41:46 MYT" depends-on-methods="getRequests.SingleUserDetails.getDetails" duration-ms="536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postdata -->
-        <test-method signature="put()[pri:3, instance:getRequests.SingleUserDetails@4c4d27c8]" started-at="2023-06-28T11:33:38 MYT" name="put" finished-at="2023-06-28T11:33:39 MYT" depends-on-methods="getRequests.SingleUserDetails.postdata" duration-ms="426" status="PASS">
+        <test-method signature="put()[pri:3, instance:getRequests.SingleUserDetails@4c4d27c8]" started-at="2023-06-30T17:41:46 MYT" name="put" finished-at="2023-06-30T17:41:46 MYT" depends-on-methods="getRequests.SingleUserDetails.postdata" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- put -->
